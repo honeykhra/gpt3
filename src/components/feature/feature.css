@@ -27,9 +27,9 @@
   margin-bottom: 0.25rem;
 }
 .gpt3__features-container__feature-text {
-  flex: 2;
-  max-width: 390px;
   display: flex;
+  flex: 2;
+  max-width: 720px;
 }
 .gpt3__features-container__feature-text p {
   font-family: var(--font-family);
@@ -43,12 +43,15 @@
   .gpt3__features-container__feature-title h1 {
     font: size 14px;
     line-height: 22px;
+    margin-bottom: 0.5rem;
   }
-  .gpt3__features-container__feature-title p {
+  .gpt3__features-container__feature p {
     font: size 12px;
     line-height: 20px;
   }
   .gpt3__features-container__feature {
     margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
   }
 }
