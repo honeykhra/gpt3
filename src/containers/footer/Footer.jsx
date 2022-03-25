@@ -39,7 +39,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="gpt3__footer-copyright">
-        © 2021 GPT-3. All rights reserved.
+        © 2021 GPT-3. <br />
+        All rights reserved.
       </div>
     </div>
   );
