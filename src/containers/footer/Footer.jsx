@@ -10,7 +10,9 @@ const Footer = () => {
           Do you want to step in to the future before others
         </h2>
       </div>
-      <div className="gpt3__footer-btn">Request Early Access</div>
+      <div className="gpt3__footer-btn">
+        <p>Request Early Access</p>
+      </div>
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
           <img src={gpt3logo} alt="logo" />
