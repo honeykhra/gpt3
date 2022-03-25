@@ -5,8 +5,10 @@ import gpt3logo from "../../assets/logo.svg";
 const Footer = () => {
   return (
     <div className="gpt3__footer section_padding">
-      <div className="gpt3__footer-heading">
-        <h2>Do you want to step in to the future before others</h2>
+      <div className="gpt3__footer-heading ">
+        <h2 className="gradient__text">
+          Do you want to step in to the future before others
+        </h2>
       </div>
       <div className="gpt3__footer-btn">Request Early Access</div>
       <div className="gpt3__footer-links">
