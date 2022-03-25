@@ -10,6 +10,7 @@
 .gpt3__footer-heading {
   width: 100%;
   text-align: center;
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 .gpt3__footer-heading h2 {
@@ -92,4 +93,31 @@
   font-family: var(--font-family);
   font-size: 12px;
   line-height: 14px;
+}
+@media screen and (max-width: 1280px) {
+  .gpt3__footer-heading h2 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__footer-heading h2 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .gpt3__footer-links div {
+    margin: 1rem;
+  }
+  .gpt3__footer-btn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gpt3__footer-heading h2 {
+    font-size: 27px;
+    line-height: 36px;
+  }
 }
